@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 const IntroScreen: React.FC = () => {
   const navigate = useNavigate();
-
+   console.log("-----")
   return (
     <div className="min-h-screen w-full bg-gradient-to-br from-zinc-900 via-zinc-800 to-gray-900 text-white px-6 py-12 flex flex-col items-center justify-center">
       <motion.div
